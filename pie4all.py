@@ -171,7 +171,7 @@ class ModuleScannerApp:
         self.progress_label.config(text="Installing modules...")
 
         # Set the directory where pip will run
-        install_directory = r"C:\Users\grhlu"
+        install_directory = r"enter your dir here"
 
         # Generate pip commands for the missing modules
         pip_commands = generate_pip_commands(selected_modules, install_directory)
